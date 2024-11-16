@@ -123,17 +123,28 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Tools ',
     skills: [
       {
-        name: 'English',
-        level: 10,
+        name: 'Development & IDE: Xcode, Swift, Instruments',
+        level: 8,
       },
-      
       {
-        name: 'Arabic',
-        level: 10,
+        name: 'Version Control & Collaboration: Git, GitHub, GitLab, Bitbucket',
+        level: 8,
       },
+      {
+        name: 'UI/UX Design: Figma, Sketch',
+        level: 8,
+      },
+      {
+        name: 'Testing & Debugging: XCTest, TestFlight, Postman, Charles Proxy',
+        level: 8,
+      },
+      {
+        name: 'Project Management & APIs: Jira, Trello, Firebase, CocoaPods',
+        level: 8,
+      }
     ],
   },
   {
@@ -158,22 +169,40 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'alamofire',
-        level: 5,
+        level: 8,
       },
       {
         name: 'SwiftUI',
-        level: 5,
+        level: 7,
       },
       {
         name: 'Git',
-        level: 5,
+        level: 7,
       },
       {
-        name: ' MySQL',
-        level: 4,
+        name: 'CoreData, SQlite',
+        level: 6,
       }
     ],
   },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'English',
+        level: 10,
+      },
+      
+      {
+        name: 'Arabic',
+        level: 10,
+      },
+    ],
+  },
+  
+  
+
+  
   
 ];
 
@@ -285,109 +314,57 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Jun 2021 - present',
-    location: 'SAP SE, Berlin',
-    title: 'Software Architect',
+    date: 'December 2023 - August 2024',
+    location: 'XApps Solutions, Cairo',
+    title: 'iOS Developer',
     content: (
       <p>
-• Evaluating, identifying, and developing software solutions<br />
-• Leading software development projects<br />
-• Documenting and recording every aspect of an application or software<br />
-• Training and overseeing the activities of the members of the development team<br />
-• Planning, tracking and scheduling software deliverables<br />
-• Locating and directing solutions for critical challenges involving software and hardware interface<br />
-• Looking for problems within software systems and resolving the issues<br />
-• Developing good working relationships with other employees, such as Marketing Managers, Product Managers, Programmers and Engineers<br />
+• Assessing, identifying, and developing iOS solutions for mobile applications<br />
+• Leading iOS development projects, ensuring timely delivery and quality<br />
+• Documenting every aspect of iOS app development, including code, features, and processes<br />
+• Training and mentoring development team members to maintain high standards in iOS development<br />
+• Planning, tracking, and managing timelines for iOS application deliverables<br />
+• Addressing challenges related to software and hardware integration for iOS apps<br />
+• Troubleshooting and resolving issues within iOS applications and systems<br />
+• Fostering collaborative relationships with teams like Marketing, Product Management, Designers, and Backend Engineers<br />
+</p>
+    ),
+  },
+  {
+    date: 'August 2023 - October 2023',
+    location: 'Banque Misr, Cairo',
+    title: 'iOS Developer',
+    content: (
+      <p>
+      • Analyzing, identifying, and creating solutions for iOS applications<br />
+      • Managing and overseeing iOS app development projects<br />
+      • Maintaining detailed documentation for all aspects of iOS app development<br />
+      • Guiding and mentoring team members in iOS development practices<br />
+      • Organizing, tracking, and coordinating deadlines for iOS app deliverables<br />
+      • Resolving technical challenges involving iOS software and hardware interactions<br />
+      • Identifying and troubleshooting issues within iOS applications<br />
+      • Building strong working relationships with cross-functional teams, including Marketing, Product, Design, and Engineering<br />
       </p>
     ),
   },
   {
-    date: 'Apr 2017 - Mar 2021 · 4 yrs',
-    location: 'momox GmbH, Berlin',
-    title: 'Mobile Tech Lead',
+    date: 'March 2022 - May 2023',
+    location: 'Toll Collect GmbH, remote',
+    title: 'iOS Developer',
     content: (
       <p>
-• Creating a diverse and outstanding team.<br />
-• Lead the mobile team from a technical perspective, mentor team members.<br />
-• Keep the Android tech stack up to date, test the new technologies, and how they fit into the business and apps.<br />
-• Set up the Android Environment from scratch (Git repositories, CI/CD pipeline integration).<br />
-• Participate in the hiring process / technical interview process.<br />
-• Design and build advanced applications for the Android platform.<br />
-• Setting up migrations / refactoring plans.<br />
-• Maintain and improve our build and distribution automation tools.<br />
-• Optimize the performance for low-end devices.<br />
-• Design and build advanced applications for the Android platform.<br />
-• Collaborate with back-end developers, designers, product owners to constantly improve the customer experience within our apps.<br />
-• Work with outside data sources and API.<br />
-• Write and maintain unit tests as well as the UI-Tests framework for robustness, including edge cases, usability, and general reliability.<br />
-• Work on bug fixing and improving application performance.<br />
-• Refactor old code to make it updated according to the latest APIs, refine the performance for new android versions.<br />
-• Continuously discover, evaluate, and implement new technologies to maximize development efficiency.<br />
-• Migrate Java code to Kotlin.<br />
-• Optimize UI for performance for low-end devices.<br />
-• Monitor and understand customer behavior.<br />
-• Solve technical and behavioral challenges, prioritized based on customer impact.<br />
-• Build reusable Android components/SDKs for interfacing with the multiple entities and Apps in our platforms.<br />
+      • Analyzing, identifying, and creating solutions for iOS applications<br />
+      • Managing and overseeing iOS app development projects<br />
+      • Maintaining detailed documentation for all aspects of iOS app development<br />
+      • Guiding and mentoring team members in iOS development practices<br />
+      • Organizing, tracking, and coordinating deadlines for iOS app deliverables<br />
+      • Resolving technical challenges involving iOS software and hardware interactions<br />
+      • Identifying and troubleshooting issues within iOS applications<br />
+      • Building strong working relationships with cross-functional teams, including Marketing, Product, Design, and Engineering<br />
       </p>
     ),
   },
-  {
-    date: 'Dec 2015 - Mar 2017 · 1 yr 4 mos',
-    location: 'Auto1, Berlin',
-    title: 'Senior Mobile Engineer',
-    content: (
-      <p>
-•Proudly I was part of the initial mobile team in Auto1 and I participated to build the mobile team from scratch.<br />
-•Responsible for technical interview assessment for new applicants.<br />
-•Build the Android team.<br />
-•Setup the Android Environment from scratch (Git repositories, CI/CD pipeline integration).<br />
-•Design and build advanced applications for the Android platform.<br />
-•Collaborate with other teams to define, design, and ship new features.<br />
-•Work with outside data sources and APIs.<br />
-•Unit-test code for robustness, including edge cases, usability, and general reliability.<br />
-•Work on bug fixing and improving application performance.<br />
-•Continuously discover, evaluate, and implement new technologies to maximize development efficiency.<br />
-      </p>
-    ),
-  },{
-    date: 'Dec 2015 - Mar 2017 · 1 yr 4 mos',
-    location: 'Vodafone International Services (VIS), Cairo',
-    title: 'Senior Software Engineer',
-    content: (
-      <p>
-•Proudly I was part of the initial mobile team in Auto1 and I participated to build the mobile team from scratch.<br />
-•Responsible for technical interview assessment for new applicants.<br />
-•Build the Android team.<br />
-•Setup the Android Environment from scratch (Git repositories, CI/CD pipeline integration).<br />
-•Design and build advanced applications for the Android platform.<br />
-•Collaborate with other teams to define, design, and ship new features.<br />
-•Work with outside data sources and APIs.<br />
-•Unit-test code for robustness, including edge cases, usability, and general reliability.<br />
-•Work on bug fixing and improving application performance.<br />
-•Continuously discover, evaluate, and implement new technologies to maximize development efficiency.<br />
-      </p>
-    ),
-  },{
-    date: 'Jun 2011 - May 2013 · 2 yrs',
-    location: 'NTG Clarity, Cairo',
-    title: 'Back End Developer',
-    content: (
-      <p>
-•Design and build advanced REST APIs.<br />
-•Collaborate with other teams to define, design, and ship new features.<br />
-•Work with outside data sources and API's.<br />
-•Unit-test code for robustness, including edge cases, usability, and general reliability.<br />
-•Work on bug fixing and improving application performance.<br />
-•Continuously discover, evaluate, and implement new technologies to maximize development efficiency.<br />
-• Designs/codes applications following specifications using the appropriate and latest version of the tools such as Eclipse and Android SDK.<br />
-• Develop complex applications and modifies/Perform maintenance programming for existing versions on his own.<br />
-• Writing the code in a way of keeping separate tiers and keeping the Minimum size of files.<br />
-• Produce quality deliverables in a fast-paced environment.<br />
-• Provide estimates for assigned development tasks.<br />
-• Learn and evaluate other new technologies/tools as needed.<br />
-      </p>
-    ),
-  },
+
 ];
 
 /**

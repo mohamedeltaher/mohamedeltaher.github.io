@@ -24,11 +24,11 @@ const Footer: FC = memo(() => (
         href="https://reactresume.com">
         <BoltIcon className="h-5 w-5 text-yellow" />
         <span>
-          Provided by <span className="text-white">Ahmed</span>
+          Provided by <span className="text-white">Mohamed</span>
           <span className="italic text-yellow">Eltaher</span>
         </span>
       </a>
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Ahmed Eltaher</span>
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} Mohamed Eltaher</span>
     </div>
   </div>
 ));

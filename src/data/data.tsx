@@ -45,7 +45,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Mohamed Eltaher - Software Architect 🧙🏻‍♂️',
+  title: 'Mohamed Eltaher - ios Engineer  🧙🏻‍♂️',
   description: "I'm Mohamed Eltaher, a Berlin based Software Architect, currently working at SAP SE.",
 };
 
@@ -70,13 +70,12 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm The Simple One, I'm Ahmed Eltaher.`,
+  name: `I'm Mohamed Eltaher.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm <strong className="text-stone-100">Software Solution Architect 🧙🏻‍♂️ </strong>with more than +15 years experience working currently
-        at <strong className="text-stone-100">SAP SE</strong> helping build a modern ML & AI Applications, mobile-first, domain
-        registrar and site builder.
+        I'm <strong className="text-stone-100">iOS Engineer 🧙🏻‍♂️ </strong>with more than 1 year experience 
+         <strong className="text-stone-100"></strong> helping build a modern Applications 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       I believe I can do anything. <strong className="text-stone-100">making a coffee ☕ or making a rocket 🚀</strong>
@@ -90,7 +89,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "https://drive.google.com/file/d/0B_WQGYZeW1-0LVo3SVJaWmFSeTA/view?usp=sharing&resourcekey=0-_ojqvvroaYv9psz-ZxfeZA",
+      href: "https://drive.google.com/file/d/1KS8T-AuPDLcv4wu47Zz9DIhtN2d766oZ/view",
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -108,15 +107,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Energetic software architect with 15 years of experience, mainly in the full-stack development area,
-   which enables me to create software that adds business value to you and makes your customer happy.`,
+  description: `Experienced iOS Engineer with 1 years in Swift, SwiftUI. Skilled at building user-focused, high-performance mobile apps that drive business value. Strong problem solver and team player, dedicated to delivering seamless user experiences.`,
   aboutItems: [
-    {label: 'Location', text: 'Berlin, Germany', Icon: MapIcon},
-    {label: 'Age', text: '33', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'German / Egyptian', Icon: FlagIcon},
+    {label: 'Location', text: 'Cairo, Egypt', Icon: MapIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Egyptian', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of AinShams', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'SAP SE.', Icon: BuildingOffice2Icon},
+    {label: 'Study', text: 'Higher Technological Institute ', Icon: AcademicCapIcon},
+    
   ],
 };
 
@@ -131,10 +129,7 @@ export const skills: SkillGroup[] = [
         name: 'English',
         level: 10,
       },
-      {
-        name: 'German',
-        level: 4,
-      },
+      
       {
         name: 'Arabic',
         level: 10,
@@ -145,13 +140,9 @@ export const skills: SkillGroup[] = [
     name: 'Programming languages',
     skills: [
       {
-        name: 'Java',
+        name: 'Swift',
         level: 9,
-      },
-      {
-        name: 'Kotlin',
-        level: 7,
-      },
+      } ,
       {
         name: 'Python',
         level: 6,
@@ -159,39 +150,31 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Backend development',
+    name: 'ios development',
     skills: [
       {
-        name: 'Java Springboot',
+        name: 'UIKit',
         level: 8,
       },
       {
-        name: 'Python Django Framework',
+        name: 'alamofire',
         level: 5,
       },
       {
-        name: 'DB technologies(SQL/NoSQL)PostgreSQL, MySQL, Cassandra',
-        level: 4,
+        name: 'SwiftUI',
+        level: 5,
       },
+      {
+        name: 'Git',
+        level: 5,
+      },
+      {
+        name: ' MySQL',
+        level: 4,
+      }
     ],
   },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'Android Development (Java, Kotlin)',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
+  
 ];
 
 /**
@@ -199,65 +182,65 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'SAP Ariba Shopping',
-    description: 'The SAP Ariba Shopping mobile app for iOS offers you a personalized, intuitive and sustainable shopping experience anywhere, anytime. The app connects you to SAP Ariba and lets you easily make purchases using your Apple iPhone.',
-    url: 'https://apps.apple.com/de/app/sap-ariba-shopping/id1593253867',
-    image: porfolioImage1,
-  },
-  {
-    title: 'momox fashion - Second Hand',
-    description: 'With momox fashion you can buy used clothing for every taste in the best quality without any stress.With the app you can easily browse through all the departments that a good online store has to offer. Look forward to a huge selection of pre-owned clothes.',
-    url: 'https://apps.apple.com/de/app/momox-fashion-second-hand/id1508997269',
+    title: 'MeinProspekt: Einkauf Planen',
+    description: 's a feature designed by equipifi, a platform specializing in Buy Now, Pay Later (BNPL) solutions. This particular solution empowers banks and credit unions to provide pre-qualified installment loans for their customers directly through their digital banking apps. The app enables users to access flexible financing options before making a purchase, allowing loans typically between $500 and $2,000, with approval processes that are quick and do not require credit checks or additional applications.',
+    url: 'https://apps.apple.com/de/app/sap-ariba-shopping/id1593253867https://apps.apple.com/de/app/meinprospekt-einkauf-planen/id1031838771?l=en-GB',
     image: porfolioImage2,
   },
   {
-    title: 'momox: Selling second hand',
-    description: "Selling on momox is now even easier! Whether it's books & media or clothing & accessories, from now on you can sell everything in just one app!MOMOX MAKES YOU SPACE! Grab your used items and give them a new home! The nicest, easiest and most sustainable way to get rid of your things - sell now with momox.",
-    url: 'https://apps.apple.com/de/app/momox-second-hand-verkaufen/id414543719',
-    image: porfolioImage3,
-  },
-  {
-    title: 'AUTO1.com',
-    description: "AUTO1.com is the leading online marketplace for the efficient purchase and sale of tested vehicles. As an independent and cross-brand automotive wholesaler, AUTO1.com is aimed exclusively at commercial retailers.With a verified vehicle inventory of over 40,000 vehicles and over 3,000 new arrivals every day, you as a dealer can find the right vehicle for your individual used car program - always at market-based purchasing conditions. More than 45,000 partner dealers from over 30 countries already use AUTO1.com as a reliable purchasing source for their used car business. With the free AUTO1.com app, partner dealers have the opportunity to purchase comprehensively documented vehicles at attractive conditions directly from AUTO1.com throughout Europe with just a few clicks: 24 hours a day, 7 days a week - with no hidden fees, brokerage commissions or minimum purchase quantities. Partner dealers can use the AUTO1.com app to participate in all ongoing auctions and place bids in real time. As a dealer, you can also conveniently purchase vehicles directly at a fixed price via our Buy It Now section.",
-    url: 'https://apps.apple.com/de/app/auto1-com/id1064015230',
+    title: 'LinkOut',
+    description: 'Linkout app is an integrated system that makes it easy to hire individuals It also provides companies with many advantages Which saves them time and effort to follow up and choose the right individuals in a sophisticated manner And professional through iPhone applications.',
+    url: 'https://apps.apple.com/eg/app/linkout/id6444288176',
     image: porfolioImage4,
-  },
-  {
-    title: 'AUTO1 EVA App',
-    description: "AUTO1 EVA enables you to offer vehicles to over 60,000 dealers in more than 30 countries. Benefit from competitive prices across Europe while we remain your sole contract, service, and contact partner. AUTO1.com handles the entire marketing and processing, including payment, transportation, and export handling. Evaluate a vehicle in under 15 minutes with our intuitive app and list it for sale in a 24-hour auction to our extensive network of partner dealers.",
-    url: 'https://apps.apple.com/de/app/auto1-eva-app/id1504637176',
-    image: porfolioImage5,
- },
-  {
-    title: 'MeinVodafone / AnaVodafone (10+ million installations)',
-    description: "MeinVodafone is self-care mobile application, I participated in developing the REST APIs using Java Springboot and worked on the mobile app.",
-    url: 'https://apps.apple.com/de/app/meinvodafone/id398195347',
-    image: porfolioImage6,
-  },
-  {
-    title: 'mySTC KSA (5+ million installations)',
-    description: 'mySTC app is Self-care mobile application, I participated in developing the REST APIs using Java Springboot and worked on the Android app.',
-    url: 'https://apps.apple.com/de/app/mystc-ksa/id808807355',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Kotobi',
-    description: 'Kotobi is considered the first Arabic E-reader App. I participated in the Android app and the Rest APIs using Java Springboot.',
-    url: 'https://play.google.com/store/apps/details?id=com.vis.kotob&hl=en&pli=1',
-    image: porfolioImage8,
-  },
-  {
-    title: 'BLE Electrometer Charging SDK',
-    description: "BLE Electrometer Charging SDK aims to recharge the smart electrometers via mobile phones, I developed the Android app in Kotlin & The Rest APIs in Java Spring Boot.",
-    url: 'https://apps.apple.com/de/app/ecg-powerapp/id1398352884',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Makan SDK (RTLS SDK)',
-    description: "A Real-time Locating Systems SDK, which enables companies to develop their indoor maps mobile apps, I developed the Android app in Kotlin & The Rest APIs in Python Django.",
-    url: 'https://play.google.com/store/apps/details?id=place.where.atmalls',
-    image: porfolioImage10,
-  },
+   }
+//   {
+//     title: 'momox: Selling second hand',
+//     description: "Selling on momox is now even easier! Whether it's books & media or clothing & accessories, from now on you can sell everything in just one app!MOMOX MAKES YOU SPACE! Grab your used items and give them a new home! The nicest, easiest and most sustainable way to get rid of your things - sell now with momox.",
+//     url: 'https://apps.apple.com/de/app/momox-second-hand-verkaufen/id414543719',
+//     image: porfolioImage3,
+//   },
+//   {
+//     title: 'AUTO1.com',
+//     description: "AUTO1.com is the leading online marketplace for the efficient purchase and sale of tested vehicles. As an independent and cross-brand automotive wholesaler, AUTO1.com is aimed exclusively at commercial retailers.With a verified vehicle inventory of over 40,000 vehicles and over 3,000 new arrivals every day, you as a dealer can find the right vehicle for your individual used car program - always at market-based purchasing conditions. More than 45,000 partner dealers from over 30 countries already use AUTO1.com as a reliable purchasing source for their used car business. With the free AUTO1.com app, partner dealers have the opportunity to purchase comprehensively documented vehicles at attractive conditions directly from AUTO1.com throughout Europe with just a few clicks: 24 hours a day, 7 days a week - with no hidden fees, brokerage commissions or minimum purchase quantities. Partner dealers can use the AUTO1.com app to participate in all ongoing auctions and place bids in real time. As a dealer, you can also conveniently purchase vehicles directly at a fixed price via our Buy It Now section.",
+//     url: 'https://apps.apple.com/de/app/auto1-com/id1064015230',
+//     image: porfolioImage4,
+//   },
+//   {
+//     title: 'AUTO1 EVA App',
+//     description: "AUTO1 EVA enables you to offer vehicles to over 60,000 dealers in more than 30 countries. Benefit from competitive prices across Europe while we remain your sole contract, service, and contact partner. AUTO1.com handles the entire marketing and processing, including payment, transportation, and export handling. Evaluate a vehicle in under 15 minutes with our intuitive app and list it for sale in a 24-hour auction to our extensive network of partner dealers.",
+//     url: 'https://apps.apple.com/de/app/auto1-eva-app/id1504637176',
+//     image: porfolioImage5,
+//  },
+//   {
+//     title: 'MeinVodafone / AnaVodafone (10+ million installations)',
+//     description: "MeinVodafone is self-care mobile application, I participated in developing the REST APIs using Java Springboot and worked on the mobile app.",
+//     url: 'https://apps.apple.com/de/app/meinvodafone/id398195347',
+//     image: porfolioImage6,
+//   },
+//   {
+//     title: 'mySTC KSA (5+ million installations)',
+//     description: 'mySTC app is Self-care mobile application, I participated in developing the REST APIs using Java Springboot and worked on the Android app.',
+//     url: 'https://apps.apple.com/de/app/mystc-ksa/id808807355',
+//     image: porfolioImage7,
+//   },
+//   {
+//     title: 'Kotobi',
+//     description: 'Kotobi is considered the first Arabic E-reader App. I participated in the Android app and the Rest APIs using Java Springboot.',
+//     url: 'https://play.google.com/store/apps/details?id=com.vis.kotob&hl=en&pli=1',
+//     image: porfolioImage8,
+//   },
+//   {
+//     title: 'BLE Electrometer Charging SDK',
+//     description: "BLE Electrometer Charging SDK aims to recharge the smart electrometers via mobile phones, I developed the Android app in Kotlin & The Rest APIs in Java Spring Boot.",
+//     url: 'https://apps.apple.com/de/app/ecg-powerapp/id1398352884',
+//     image: porfolioImage9,
+//   },
+//   {
+//     title: 'Makan SDK (RTLS SDK)',
+//     description: "A Real-time Locating Systems SDK, which enables companies to develop their indoor maps mobile apps, I developed the Android app in Kotlin & The Rest APIs in Python Django.",
+//     url: 'https://play.google.com/store/apps/details?id=place.where.atmalls',
+//     image: porfolioImage10,
+//   },
   // {
   //   title: 'Project title 11',
   //   description: 'Give a short description of your project here.',
@@ -271,14 +254,14 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'Sep 2007- June 2011',
+    date: 'Sep 2019- June 2024',
     location: 'Cairo, Egypt',
-    title: 'Bsc Computers & information science, Ain Shams University',
-    content: <p>I've studied my bachelor in Faculty of Computers & information science Ain Shams university.<br />
+    title: 'BEng. in Computers & Communications, Higher Technological Institute.',
+    content: <p>I've studied my bachelor in Faculty of Engineering in Electonics & comunication in Higher Technological Institute of 10th of Ramadan City.<br />
     I have studied a lot of topics such as:<br />
-    •Computer vision<br />
-    •Image processing<br />
-    •Pattern recognition <br />
+    •Calculus<br />
+    •Statistic <br />
+    •Comunication <br />
     •Artificial intelligence<br />
     •Machine learning<br />
     •Data mining<br />
@@ -414,18 +397,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Matthias Pape',
-      text: 'Ahmed is a high professional, friendly and very good team player. It was a pleasure to work with him! He has amazing skills and passionate about sharing his knowlege with his team.',
+      name: 'Asem Ayman',
+      text: 'Mohamed is a high professional, friendly and very good team player. It was a pleasure to work with him! He has amazing skills and passionate about sharing his knowlege with his team.',
       image: '',
     },
     {
       name: 'Mohamed Elmaazy',
-      text: "I had the pleasure of studying android track under instructing Ahmed Eltaher , He is hard worker , patient , Confident ,Positive thinker , innovator , have excellent technical knowledge ,learn me how to think in my own business",
+      text: "I had the pleasure of studying android track under instructing Mohamed Eltaher , He is hard worker , patient , Confident ,Positive thinker , innovator , have excellent technical knowledge ,learn me how to think in my own business",
       image: '',
     },
     {
-      name: 'Islam Mansour',
-      text: 'Ahmed is very active person, really a hard worker, very ambitious and he like what he is doing ',
+      name: 'Abdrahman ashour',
+      text: 'Mohamed is very active person, really a hard worker, very ambitious and he like what he is doing ',
       image: '',
     },
   ],
@@ -441,28 +424,28 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'ahmedmahmoud.eltaher@gmail.com',
-      href: 'mailto:ahmedmahmoud.eltaher@gmail.com',
+      text: 'mohamed.ahmedeltaher@gmail.com',
+      href: 'mailto:mohamed.ahmedeltaher@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Berlin, Germany',
-      href: 'https://maps.app.goo.gl/EGE4smtvE6eEMgz9A',
+      text: 'cairo, Egypt',
+      href: 'https://maps.app.goo.gl/bHNWS4GJf4BuhH5T9',
     },
     {
       type: ContactType.Phone,
-      text: '+4915154346438',
-      href: ' https://wa.me/+4915154346438',
+      text: '01016721456',
+      href: ' https://wa.me/01016721456',
     },
     {
       type: ContactType.LinkedIn,
-      text: '@ahmed-eltaher',
-      href: 'https://www.linkedin.com/in/ahmed-eltaher/',
+      text: 'mohamed-el-taher',
+      href: 'https://www.linkedin.com/in/mohamed-el-taher/',
     },
     {
       type: ContactType.Github,
-      text: 'ahmedeltaher',
-      href: 'https://github.com/ahmedeltaher',
+      text: 'mohamedeltaher',
+      href: 'https://github.com/mohamedeltaher',
     },
   ],
 };
@@ -471,7 +454,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ahmed-eltaher/'},
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ahmedeltaher'},
-  {label: 'Medium', Icon: MediumIcon, href: 'https://medium.com/@ahmedmahmoud-eltaher'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/mohamed-el-taher/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/mohamedeltaher'},
+  {label: 'Medium', Icon: MediumIcon, href: 'https://medium.com/@mohamed.ahmedeltaher'},
 ];

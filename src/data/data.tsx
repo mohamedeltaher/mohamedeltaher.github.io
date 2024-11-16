@@ -45,8 +45,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Ahmed Eltaher - Software Architect 🧙🏻‍♂️',
-  description: "I'm Ahmed Eltaher, a Berlin based Software Architect, currently working at SAP SE.",
+  title: 'Mohamed Eltaher - Software Architect 🧙🏻‍♂️',
+  description: "I'm Mohamed Eltaher, a Berlin based Software Architect, currently working at SAP SE.",
 };
 
 /**
